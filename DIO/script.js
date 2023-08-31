@@ -168,3 +168,37 @@ do {
     a++;
     console.log(a);
 } while (a<10)
+
+//------------------FUNÇÕES--------------------------------------------
+
+function funcao(){
+    console.log("Tudo certo, amigos?");
+}
+funcao();
+
+function mensagem(primeiro, segundo){
+    console.log(primeiro, parametro);
+}
+
+mensagem( "tudo certo," , "jovem");
+
+//-------TIPOS DE FUNÇÃO--------------------------------------------------
+
+//declarativas
+function funcao1 (){
+    console.log("sou uma função declarativa");
+}
+
+funcao1();
+
+//com expressões
+var funcao =function (){
+    console.log("sou uma mensagem de função expressão");
+}
+funcao2();
+
+//arrow function
+var funcao = () =>{
+    console.log("sou uma arrow function");
+}
+
